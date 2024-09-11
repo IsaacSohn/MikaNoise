@@ -9,7 +9,12 @@
       "service_worker": "background.js"
     },
     "permissions": [
-      "alarms"
-    ]
+      "alarms",
+      "offscreen"
+    ],
+    "web_accessible_resources": [{
+        "resources":["audio.mp3"],
+        "matches": ["<all_urls>"]
+    }]
   }
   
