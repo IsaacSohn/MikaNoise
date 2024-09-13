@@ -33,6 +33,7 @@ chrome.runtime.onMessage.addListener((message) => {
         });
     }
 });
+
 // Inital interval for when u start this damn thing
 chrome.runtime.onInstalled.addListener(() => {
     setRandomInterval();
