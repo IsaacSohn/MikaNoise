@@ -9,10 +9,10 @@ function playAudio() {
 // Set a random interval for this
 function setRandomInterval() {
     // rn its between 10-5 seconds
-    const randomInterval = Math.random() * (10 - 5) + 5;
+    const randomInterval = Math.random() * (5 - 1) + 1;
     console.log(randomInterval);
     // dk man it makes an alarm source: my ass
-    chrome.alarms.create('playAudio', { delayInMinutes: randomInterval / 60 });
+    chrome.alarms.create('playAudio', { delayInMinutes: randomInterval});
 }
   
 // this TRIGGERS the alarm that we made previously
