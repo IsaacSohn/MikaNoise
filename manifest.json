@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Mika Noise",
+    "name": "Anti-Dozing Off Extension",
     "version": "1.0",
     "icons": {
         "128": "assets/icon/icon-128.png"
